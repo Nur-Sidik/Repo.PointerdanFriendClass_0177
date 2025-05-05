@@ -15,5 +15,7 @@ int main (){
     Mahasiswa mhs;
     mhs.nim = 5;
     mhs.showNim();
+    
+    Mahasiswa &refmhs = mhs;
 
 }
