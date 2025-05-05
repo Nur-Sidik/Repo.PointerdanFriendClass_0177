@@ -20,4 +20,8 @@ int main(){
     Dosen ds;
     ds.nama "Giga";
     ds.TampilNama();
+
+    Dosen &dsref = ds;
+    dsref.nama = "Joko";
+    cout << "Alamat Memori = " << &dsref << endl;
 }
