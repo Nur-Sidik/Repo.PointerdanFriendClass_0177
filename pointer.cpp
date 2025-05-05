@@ -31,4 +31,8 @@ int main(){
     cout << "Alamat memori = " << pds << endl;
     pds->TampilNama();
 
+    int a = 5;
+    int b = 3;
+    int *c = &a;
+    *c = 9;
 }
