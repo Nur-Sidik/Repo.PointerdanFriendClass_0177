@@ -17,5 +17,6 @@ int main (){
     mhs.showNim();
     
     Mahasiswa &refmhs = mhs;
+    mhs.nim = 2;
 
 }
