@@ -38,4 +38,7 @@ int main(){
     cout << endl;
     cout << a << endl;
 
+    cout << "alamat memori a = " << &a << endl;
+    cout << "alamat memori a = " << c << endl;
+
 }
