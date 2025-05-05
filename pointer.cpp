@@ -18,10 +18,17 @@ class staff
 
 int main(){
     Dosen ds;
-    ds.nama "Giga";
+    ds.nama = "Giga";
     ds.TampilNama();
 
     Dosen &dsref = ds;
     dsref.nama = "Joko";
     cout << "Alamat Memori = " << &dsref << endl;
+    dsref.TampilNama();
+
+    Dosen *pds = &ds;
+    pds->nama = "Reza";
+    cout << "Alamat memori = " << pds << endl;
+    pds->TampilNama();
+
 }
